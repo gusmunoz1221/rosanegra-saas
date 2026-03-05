@@ -7,7 +7,7 @@
 ![JWT](https://img.shields.io/badge/JWT-Black?style=for-the-badge&logo=JSON%20web%20tokens)
 
 ## 📌 Visión General
-**Rosa Negra SaaS Platform**  GastroSaaS es una plataforma backend B2B diseñada para digitalizar la operación de restaurantes mediante una arquitectura multi-tenant segura y escalable.
+**Rosa Negra SaaS Platform**  es una plataforma backend B2B diseñada para digitalizar la operación de restaurantes mediante una arquitectura multi-tenant segura y escalable.
 La plataforma conecta el flujo físico del restaurante (mesas, mozos, cocina) con una capa digital basada en QR, pedidos en mesa y sistemas KDS.
 
 El sistema conecta el flujo físico del restaurante (mesas, mozos, cocina)
