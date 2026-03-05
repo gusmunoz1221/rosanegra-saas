@@ -71,8 +71,8 @@ La seguridad está protegida por **Spring Security** y **JWT Stateless**, implem
 ## 🛠️ Stack Tecnológico
 
 **Core & Web**
-* Java 17
-* Spring Boot 3.x
+* Java 21
+* Spring Boot 4.x
 * Spring Web MVC
 * Spring Mail (Notificaciones automáticas)
 
