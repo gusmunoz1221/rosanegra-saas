@@ -21,34 +21,6 @@ con una capa digital basada en QR, pedidos en mesa y KDS.
 * **Manejo Centralizado de Excepciones:** Un `GlobalExceptionHandler` robusto que estandariza las respuestas JSON para validaciones (`@Valid`), errores de negocio y bloqueos de seguridad (`AccessDeniedException`).
 * **Feature Toggles (Módulos Dinámicos):** La plataforma permite encender o apagar funcionalidades (reservas, auto-pedido, mozos) dependiendo de la suscripción (Plan) que pague cada inquilino.
 
-
----
-
-## 📦 Organización del Proyecto (Feature-Based)
-
-### 📦 Estructura de paquetes (Feature-Based Architecture)
-
-El backend sigue una organización **feature-based**, donde cada dominio de negocio se encapsula dentro de su propio módulo.
-
-Esto permite:
-- Mayor mantenibilidad
-- Escalabilidad del código
-- Bajo acoplamiento entre componentes
-
-#### Vista general de la estructura
-
-![Project Structure](assets/package-structure.png)
-
-#### Módulos del sistema
-
-![Project Structure](assets/package-structure1.png)
-![Project Structure](assets/package-structure2.png)
-
-#### Módulos operativos
-
-![Project Structure](assets/package-structure3.png)
-![Project Structure](assets/package-structure4.png)
-
 ---
 
 ## 🧩 Ecosistema de Módulos
@@ -228,8 +200,14 @@ Sistema de control de acceso basado en roles (RBAC) para restringir funcionalida
 ---
 
 ## Backend Architecture
+### 📦 Estructura de paquetes (Feature-Based Architecture)
 
-### Package Structure
+El backend sigue una organización **feature-based**, donde cada dominio de negocio se encapsula dentro de su propio módulo.
+
+Esto permite:
+- Mayor mantenibilidad
+- Escalabilidad del código
+- Bajo acoplamiento entre componentes
 
 ![Package Structure](assets/package-structure.png)
 
@@ -240,8 +218,6 @@ Sistema de control de acceso basado en roles (RBAC) para restringir funcionalida
 ![Package Structure](assets/package-structure3.png)
 
 ![Package Structure](assets/package-structure4.png)
-
-Estructura modular del backend basada en **features**, facilitando mantenibilidad, escalabilidad y separación de responsabilidades.
 
 ---
 
