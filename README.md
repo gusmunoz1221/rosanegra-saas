@@ -26,12 +26,26 @@ con una capa digital basada en QR, pedidos en mesa y KDS.
 
 ## 📦 Organización del Proyecto (Feature-Based)
 
-El backend sigue una organización **feature-based**, donde cada dominio de negocio se agrupa en su propio módulo interno.  
-Este enfoque mejora la mantenibilidad, facilita la escalabilidad del código y reduce el acoplamiento entre componentes.
-### Estructura de paquetes
+### 📦 Estructura de paquetes (Feature-Based Architecture)
+
+El backend sigue una organización **feature-based**, donde cada dominio de negocio se encapsula dentro de su propio módulo.
+
+Esto permite:
+- Mayor mantenibilidad
+- Escalabilidad del código
+- Bajo acoplamiento entre componentes
+
+#### Vista general de la estructura
+
 ![Project Structure](assets/package-structure.png)
+
+#### Módulos del sistema
+
 ![Project Structure](assets/package-structure1.png)
 ![Project Structure](assets/package-structure2.png)
+
+#### Módulos operativos
+
 ![Project Structure](assets/package-structure3.png)
 ![Project Structure](assets/package-structure4.png)
 
